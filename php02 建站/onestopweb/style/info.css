@@ -1,0 +1,86 @@
+/* CSS Document */
+
+/*结果栏*/
+.result{ width:1010px; height:27px; margin:15px auto 16px auto;}
+.result_icon{ background:#d10504; width:9px; height:27px;}
+.result p{ border-bottom:1px solid #dfdfdf; width:993px; padding-left:8px; height:26px; line-height:26px;}
+
+/*类型选择*/
+.type{ width:988px; height:46px; padding:4px 10px; margin:0 auto; border:1px solid #ccc;}
+.type p{ color:#333; height:23px; line-height:23px;}
+.type p a{ color:#069; text-decoration:underline; padding-left:8px;}
+.type p a:hover{ color:#c00;}
+
+/*内容*/
+.cont{ width:1010px; margin:10px auto 0 auto;}
+
+/*列表展示*/
+.show{ width:700px;}
+.show h3{ height:40px; line-height:40px; background:url(../images/info/info_bg.png) no-repeat left bottom; font-size:13px; font-weight:normal; margin-top:6px;}
+.show h3 span{ font-weight:bold; font-size:15px; color:#c00;}
+.show h3 .span_other{ padding-left:16px;}
+.show h3 .valid{ background:#090; padding:0 2px; color:#fff;}
+.show h3 .valid:hover{ background:#999; font-size:13px; color:#fff; text-decoration:none;}
+.show h3 .lose{background:#999; color:#fff; text-decoration:none; padding:0 2px; }
+.show h3 .sutra{ background:#c00; padding:0 2px; color:#fff;}
+.show h3 .sutra:hover{ background:#c00; color:#fff; text-decoration:none;}
+.show h3 i{ background:url(../images/good.gif) no-repeat left 10px; padding-left:21px; padding-right:10px;}
+.show h3 em{ background:url(../images/eye.jpg) no-repeat left 14px; padding-left:21px; }
+
+.show h5{ margin-top:8px; font-weight:normal; font-size:12px;}
+.show h5 em{ font-weight:bold; color:#06f; font-size:13px;}
+.show h5 em a{ padding-left:30px; font-size:12px; font-weight:normal; background:url(../images/info/link.png) no-repeat 10px 0px; color:#06f; text-decoration:underline}
+.show h5 em a:hover{ color:#c00;}
+
+.show_text { color:#333; line-height:25px; font-size:13px; padding-top:10px;}
+.show_text a{ font-weight:bold; color:#06f; text-decoration:underline;}
+.show_text a:hover{ color:#c00;}
+
+.show_img{ margin-top:16px; height:110px;}
+.show_img a{ display:block; width:108px; height:108px; margin-right:5px; margin-bottom:5px; border:1px solid #ccc;}
+.show_img a:hover{ border:1px solid #f60;}
+.show_img a img{ padding-left: 4px; padding-top: 4px;}
+
+.show_link{ margin-top:16px;}
+.show_link table{ width:100%; font-size:13px; margin-bottom:10px;}
+.show_link table .valid{ background:#090; padding:0 2px; color:#fff;}
+.show_link table .valid:hover{ background:#999; font-size:13px; color:#fff; text-decoration:none;}
+.show_link table .lose{background:#999; color:#fff; text-decoration:none; padding:0 2px; }
+.show_link table td{ height:23px;}
+.show_link table td em{ background:url(../images/good.gif) no-repeat; padding-left:18px; }
+.open{ color:#06f; text-decoration:underline;}
+.show_link .link_text{ width:500px; height:30px; color:#999; font-size:14px; line-height:30px; padding-left:8px; border:1px solid #c4c4c4;}
+.show_link .link_submit{ background:#f60; border:none; width:160px; height:32px; color:#fff; font-size:16px; font-weight:normal; margin-right:20px;}
+
+.show h4{ height:44px; line-height:44px; font-size:12px; font-weight:normal;}
+.show h4 a{ color:#999; padding-right:12px;}
+.show h4 a:hover{ color:#dd3322; text-decoration:none;}
+.show h4 span{ border:1px solid #ccc; background:#f4f4f4; padding:3px 5px; color:#777; -moz-border-radius:5px;  -webkit-border-radius: 5px; border-radius:5px;}
+.show h4 span em{ color:#dd3322; font-weight:bold; font-family:'Arial';}
+
+.show dl{ border-top:1px solid #ddd; position:relative;}
+.show dl dt{ display:block; width:70px; position:absolute; top:12px; left:9px;}
+.show dl dd{ display:block; width:630px; padding-left:70px;}
+.show dl .line01{ height:23px; padding-top:8px; line-height:23px; color:#777;}
+.show dl .line02{ color:#333; line-height:21px;}
+.show dl .line03{ height:23px; line-height:23px; padding-bottom:8px; color:#999;}
+.show dl .line03 em{ background:url(../images/good.gif) no-repeat; padding-left:18px; }
+.show dl .line03 .valid{ background:#090; padding:0 2px; color:#fff;}
+.show dl .line03 .valid:hover{ background:#999; color:#fff; text-decoration:none;}
+.show dl .line03 .lose{background:#999; color:#fff; text-decoration:none; padding:0 2px; }
+
+.show_say{ border-top:1px solid #ddd; height:107px; padding-top:25px; padding-bottom:25px; position:relative;}
+.show_say img{ position:absolute; top:25px; left:9px;}
+.show_say .say_box{ background:url(../images/info/say_box.gif) no-repeat 70px 0px; padding-top:2px; width:620px; height:105px; padding-left:70px;}
+.show_say .say_box textarea{ width:610px; background-color:transparent; padding:0 4px; line-height:21px; font-size:12px; height:72px; display:block; margin:0px auto; border:0px;}
+.show_say .say_box input{ width:96px; height:30px; font-size:14px; font-weight:bold; background-color:transparent; border:0; position:absolute; right:12px; bottom:26px;}
+
+/*侧栏显示*/
+.sidebar{ width:300px;}
+.ad{ margin-top:20px; width:298px; height:248px; border:1px solid #dfdfdf;}
+.ad img{ padding:9px 9px 0px 9px;}
+.list{ width:298px; border:1px solid #dfdfdf; margin:25px 0 20px;}
+.list p{ width:288px; height:42px; padding-left:10px;}
+.list p span{ background:#f2f2f2; width:91px; height:26px; line-height:26px; text-align:center; margin-top:10px; margin-right:2px; font-size:14px; color:#333; font-weight:bold;}
+.list ul{ padding-bottom:4px;}
+.list ul li{ height:28px; line-height:28px; font-size:13px; color:#3f3f3f; background:url(../images/index/drop.png) no-repeat 16px 14px; padding-left:26px;}

@@ -1,0 +1,16 @@
+/* CSS Document */
+
+/*公共样式*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary{ margin:0; padding:0;}
+body{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; color:#999; font-size:12px; background:#fff;}
+a{ color:#3f3f3f; text-decoration:none;}
+a:hover{ color:#cc0000; text-decoration:underline;}
+a img{ border:none;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+ul li{ list-style-type:none;}
+.c{ clear: both;} 
+textarea{ resize:none;}
+input, select, textarea{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; background:#fff; margin:0; padding:0; outline:none;}

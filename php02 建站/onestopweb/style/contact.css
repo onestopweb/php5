@@ -1,0 +1,17 @@
+/* CSS Document */
+.banner{ width:1000px; height:200px; margin:0 auto;}
+
+/*订单处理*/
+.online{ width:1000px; height:380px; margin:0 auto;}
+.online h3{ height:78px; line-height:78px;  color:#333; font-size:21px; font-weight:500;}
+.online table{ width:680px; height:290px;}
+.online .text{ border:1px solid #dadada; width:310px; font-size:14px; height:36px; line-height:36px; padding:0 10px; color:#999;}
+.online table textarea{ width:658px; height:100px; border:1px solid #dadada; font-size:12px; padding:2px 10px 0 10px; color:#999; line-height:18px;}
+.online table .submit{ width:140px; height:43px; border:0; background:#e11629; text-align:center; line-height:43px; font-size:21px; color:#fff; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.online table .submit:hover{ background:#e64352;}
+.online table span{ color:#666; font-size:14px;}
+.online table span i{ color:#00a2e9;}
+.online .touch{ width:290px;}
+.online .touch p{ color:#666; font-size:14px; line-height:21px; margin-bottom:20px;}
+.online .touch p i{ color:#00a2e9; font-size:18px; line-height:32px; font-weight:500;}
+

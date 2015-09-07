@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body{ background:#d4e7f9;}
+.menu{ width:150px;}
+.box{ width:153px; height:227px; background:url(../images/box01.png) no-repeat; }
+.box h2{ text-align:center; font-size:14px; font-weight:bold; color:#000; padding-top:21px;}
+.box em{ display:block; width:50px; height:50px; overflow:hidden; margin:14px auto 10px auto;}
+.box p{ text-align:center; color:#000; padding-bottom:6px;}
+.box p a{ color:#000;}
+.box i{ display:block; padding-left:80px;}
+
+h3{ background:url(../images/sidebar_title.jpg) repeat-x; height:26px; width:153px; color:#fff; font-size:12px;}
+h3 a{  color:#fff; font-size:12px;   background:url(../images/buttom_hover.jpg) no-repeat; padding-left:30px; height:26px; display:block; line-height:26px; text-decoration:none;}
+h3 a:hover{ color:#b6241f; text-decoration:none;}
+ul{ background:#d4e7f9;}
+ul li{ background:url(../images/sidebar_bj.jpg) no-repeat; height:26px; line-height:26px; padding-left:36px;}
+ul li a { color:#203c73;}
+

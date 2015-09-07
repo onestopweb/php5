@@ -1,0 +1,19 @@
+/* CSS Document */
+
+
+/*登陆界面*/
+.interface{ width:600px; height:455px; background:url(../images/login_bg.png) no-repeat; margin:60px auto 0 auto;}
+
+.login{ background:url(../images/loginOfAdmin/loginBj.jpg) no-repeat; width:419px; height:220px; padding-left:86px; padding-top:200px;}
+.login .name,.login .pwd{ border:1px solid #b5b5b5; width:187px; height:41px; line-height:41px; margin-left:95px; padding-left:41px; color:#000;}
+.login .name:hover,.login :hover{ border:1px solid #c00;}
+.login .name{ font-size:16px; background:url(../images/name.jpg) no-repeat;}
+.login .pwd{  margin-top:18px; background:url(../images/pwd.jpg) no-repeat;}
+.login .submit{ background:#1c98e7; width:140px; height:45px; margin-left:139px; margin-top:22px; border:1px solid #007dcc; color:#fff; font-size:16px;}
+.login .submit:hover{ border:1px solid #1092e5; background:#25a3f3;}
+
+
+
+
+
+

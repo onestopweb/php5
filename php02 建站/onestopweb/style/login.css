@@ -1,0 +1,20 @@
+/* CSS Document */
+
+/*登陆样式*/
+.login{ width:1010px; height:410px; margin:0 auto;}
+
+.login_banner{ width:615px; height:410px;}
+
+.login_box{ width:378px; height:340px; margin-top:40px; border:1px solid #dcdcdc; position:relative;}
+.login_box h3{ height:60px; border-bottom:1px solid #dcdcdc;}
+.login_box h3 em{ color:#333; font-size:14px; font-weight:bold; line-height:60px; padding-left:16px;}
+.login_box h3 a{ color:#1b5ec3; font-size:12px; font-weight:bold; line-height:50px; padding-right:16px;}
+.login_box p{ height:38px; line-height:38px; margin-top:40px;}
+.login_box p span{ display:block; width:60px; text-align:right; color:#333;}
+.login_box p input{ width:210px; height:36px; line-height:36px; border-top:1px solid #c4c4c4; border-left:1px solid #c4c4c4; border-bottom:1px solid #ebebeb; border-right:1px solid #ebebeb; padding-left:25px; color:#333;}
+.login_box p .login_user{ background:url(../images/user_icon.gif) no-repeat; color:#999;}
+.login_box p .login_pwd{ background:url(../images/user_icon.gif) no-repeat 0px -36px;}
+.login_box p a{ color:#069; padding-left:10px;}
+.login_box .login_submit{ border:0; background:#e6343c; text-align:center; font-size:16px; font-weight:bold; display:block; width:250px; height:38px; color:#fff; margin:40px auto 0 auto;}
+.login_box strong{ position:absolute; bottom:10px; left:20px; font-size:12px; font-weight:normal; color:#c00;}
+

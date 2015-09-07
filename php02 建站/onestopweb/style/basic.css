@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/*公共样式*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary{ margin:0; padding:0;}
+body{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; color:#999; font-size:12px; background:#fff;}
+a{ color:#3f3f3f; text-decoration:none;}
+a:hover{ color:#cc0000; text-decoration:underline;}
+a img{ border:none;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+ul li{ list-style-type:none;}
+.c{ clear: both;} 
+textarea{ resize:none;}
+input, select, textarea{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; background:#fff; margin:0; padding:0; outline:none;}
+
+/*头部样式*/
+.top{ width:1010px; height:120px; margin:0 auto; background:#fff url(../images/logo.png) no-repeat 30px 10px;}
+.top_nav{ width:640px; height:45px; margin-bottom:10px; color:#999; line-height:45px;}
+.top_nav em{ font-size:22px; font-weight:bold; padding-left:10px; color:#d82128;}
+.top_nav span{}
+.top_nav span a{ color:#bdbdbd; font-size:14px;}
+.top_nav span a:hover{ text-decoration:underline; color:#c00;}
+.top_nav span .collection{ color:#c00;}
+.search{ width:520px; height:36px; background:#fff; border:2px solid #e6343c; margin-left:456px;}
+.search .search_select{ width:92px; height:23px; padding:7px 10px 0 10px;}
+.search .search_select select{ width:92px; height:23px; font-family:\5FAE\8F6F\96C5\9ED1; font-size:13px; line-height:23px; color:#555; border:0;}
+.search .text_box{ width:280px; height:36px; border-left:1px solid #e6343c;}
+.search .text_box input{ border:0; width:280px; color:#000; padding-left:8px; height:34px; line-height:34px; font-size:14px; color:#999;}
+.search .search_btn{ background:#e6343c; width:100px; height:36px; border:0px; color:#fff; font-weight:bold; font-size:16px;}
+
+/*导航样式*/
+.nav{ width:100%; height:48px; background:#b10000;}
+.nav p{ width:1000px; height:48px; margin:0 auto; background:#b10000;}
+.nav p a{ color:#fff; display:block; padding:0 21px; height:42px; margin-top:6px; margin-right:1px; background:#b10000; line-height:42px; font-size:16px;}
+.nav p a:hover{ background:#fff; text-decoration:none; color:#b10000;}
+.nav p .navNow{ background:#fff; text-decoration:none; color:#b10000;}
+
+/*底部导航*/
+.foot_nav{ width:100%; height:41px; background:#c40606; margin-top:19px; }
+.foot_nav p{ width:1010px; margin:0 auto; text-align:center; line-height:41px; font-size:15px; color:#fff;}
+.foot_nav p a{ padding:0 8px; color:#fff;}
+
+/*底部备案信息*/
+.footer{ width:764px; height:150px; padding:30px 0 0 246px; margin:0 auto; background:url(../images/logo2.png) no-repeat 93px 28px;}
+.footer p{ line-height:18px;}
+.footer p a{ color:#999;}
+.footer p a:hover{ color:#999; text-decoration:none;}
+
+

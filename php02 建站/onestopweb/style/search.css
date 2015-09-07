@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/*结果栏*/
+.result{ width:1010px; height:27px; margin:15px auto 16px auto;}
+.result_icon{ background:#d10504; width:9px; height:27px;}
+.result p{ border-bottom:1px solid #dfdfdf; width:993px; padding-left:8px; height:26px; line-height:26px;}
+
+/*类型选择*/
+.type{ width:988px; height:46px; padding:4px 10px; margin:0 auto; border:1px solid #ccc;}
+.type p{ color:#333; height:23px; line-height:23px;}
+.type p a{ color:#069; text-decoration:underline; padding-left:8px;}
+.type p a:hover{ color:#c00;}
+
+/*内容*/
+.cont{ width:1010px; margin:10px auto 0 auto;}
+
+/*列表展示*/
+.show{ width:700px;}
+.show h3{ height:40px; border-bottom:4px solid #d10504; line-height:40px; padding-left:8px; color:#d10504; font-size:16px; font-weight:bold;}
+.show dl{ height:140px; border-bottom:1px dashed #ccc;}
+.show dl dt{ height:140px; width:140px;}
+.show dl dt a { display:block; margin:15px; border:1px solid #ccc; height:110px; width:110px; position:relative;}
+.show dl dt a:hover{ border:1px solid #f60;}
+.show dl dt a .product{ padding:5px;}
+.show dl dt a .link{ position:absolute; top:90px; left:90px;}
+.line01{ height:36px; line-height:36px; padding-top:10px;}
+.line01 .title{ font-weight:bold; font-size:14px;}
+.line01 .valid{ background:#090; padding:0 2px; color:#fff;}
+.line01 .valid:hover{ background:#999; color:#fff; text-decoration:none;}
+.line01 .lose{background:#999; color:#fff; text-decoration:none; padding:0 2px; }
+.line01 .sutra{background:#c00; padding:0 2px; color:#fff;}
+.line01 .sutra:hover{ background:#c00; text-decoration:none;}
+.line01 i{ background:url(../images/good.gif) no-repeat left 8px; padding-left:21px; padding-right:10px;}
+.line01 em{ background:url(../images/eye.jpg) no-repeat left 10px; padding-left:21px;}
+.line02{ color:#666; height:60px; line-height:23px;}
+.line03{}
+.line03 a{ color:#3f3f3f; text-decoration:none;}
+.line03 a:hover{ color:#cc0000; text-decoration:underline;}
+.page{ margin-top:17px; height:26px; padding-left:15px; font-size: 14px;}
+
+/*侧栏显示*/
+.sidebar{ width:300px;}
+.ad{ margin-top:20px; width:298px; height:248px; border:1px solid #dfdfdf;}
+.ad img{ padding:9px 9px 0px 9px;}
+.list{ width:298px; border:1px solid #dfdfdf; margin:25px 0 20px;}
+.list p{ width:288px; height:42px; padding-left:10px;}
+.list p span{ background:#f2f2f2; width:91px; height:26px; line-height:26px; text-align:center; margin-top:10px; margin-right:2px; font-size:14px; color:#333; font-weight:bold;}
+.list ul{ padding-bottom:4px;}
+.list ul li{ height:28px; line-height:28px; font-size:13px; color:#3f3f3f; background:url(../images/index/drop.png) no-repeat 16px 14px; padding-left:26px;}
+
+
